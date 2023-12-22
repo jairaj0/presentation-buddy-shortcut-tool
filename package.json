@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clipboardy": "^4.0.0"
+    "fs": "^0.0.1-security"
   }
 }
