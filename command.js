@@ -1,56 +1,43 @@
+//     { "file": ["open/create", "path"] },
+//     { "goto": ["line", "column"] },
+//     { "cmd": "save/wait manual time/number of delay time" },
+//     { "text": [`code in text`, "delay"] }
+//     { "linebyline": [`code in text`,[line , column] , "delay" , wait/1000 }
+//     { "css": [`code in text`,[line , column] , "delay" , wait/1000 }
+//     { "emmet": ["code in text" , "delay"] }
+//     { "line": [lineNo , no of lines] }
+
+
 const end = 1000;
 const create = "create";
 const open = "open";
 const save = "save";
 const wait = "wait";
 export const command = [
-    // ********** PLAYGROUND *****************
+  { "file": ["open", "Styles/test.css"] },
+  { "cmd": wait },
+  { "css": [
+`
+*,
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-;
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+}
+`,[1,1], 50 , 1000] },
 
 
-
-    { "file": [open, "index.html"] },
-    { "goto": [6, 12] },
-    { "text": [`Voyalabs - welcome to the creative world of custom design and branding`, 100] },
-    { "cmd": save },
-    { "cmd": wait },
-    { "goto": [9, 1] },
-    { "text": [`    <h1>Hello world !</h1>`,100]},
-    { "cmd": wait },
-    { "file": [open , "Styles/Universal.css"] },
-    { "text": [
-`h1{
-    font-size: 30px;
-    font-weight: 900;
-    color: red;
-    background-color: blue;
-}`
-     , 50]},
-    { "cmd" : save },
-    { "goto": [5 , end]},
-    { "text": [
-    `
-    background-color: green;` , 50]},
-    { "cmd" : save },
-    { "text": [
-    `
-    background-color: red;` , 50]},
-    { "cmd" : save },
-    { "text": [
-    `
-    background-color: yellow;` , 50]},
-    { "cmd" : save },
-    { "text": [
-    `
-    background-color: orange;` , 50]},
-    { "cmd" : save },
-    { "text": [
-    `
-    background-color: orchid;` , 50]},
-    { "cmd" : save },
-
-
-
-
-    // ********** PLAYGROUND *****************
+{ "line": [8 , 20] },
+{ "cmd": wait },
+{ "css": [
+`
+.text,
+.text * {
+  font-family: "IBM Plex Mono", monospace;
+}
+`,[28,1], 50 , 100] },
 ]
+
 

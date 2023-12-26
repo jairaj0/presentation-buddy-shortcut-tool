@@ -1,76 +1,224 @@
 [
   {
     "type": "openFile",
-    "path": "index.html"
-  },
-  {
-    "type": "goto",
-    "line": 6,
-    "column": 12
-  },
-  {
-    "type": "typeText",
-    "text": [
-      "Voyalabs - welcome to the creative world of custom design and branding"
-    ],
-    "delay": 100
-  },
-  {
-    "type": "command",
-    "command": "workbench.action.files.save"
+    "path": "Styles/test.css"
   },
   {
     "type": "wait",
     "delay": "manual",
-    "save": true
+    "save": false
   },
   {
     "type": "goto",
-    "line": 9,
+    "line": 1,
     "column": 1
   },
   {
     "type": "typeText",
     "text": [
-      "    <h1>Hello world !</h1>"
-    ],
-    "delay": 100
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
-  {
-    "type": "openFile",
-    "path": "Styles/Universal.css"
-  },
-  {
-    "type": "typeText",
-    "text": [
-      "h1{",
-      "    font-size: 30px;",
-      "    font-weight: 900;",
-      "    color: red;",
-      "    background-color: blue;",
+      "*,",
+      "body{",
+      "",
       "}"
     ],
     "delay": 50
   },
   {
     "type": "command",
+    "command": "cursorUp"
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "  margin: 0;"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
     "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": 1000
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      "  padding: 0;"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": 1000
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      "  box-sizing: border-;"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": 1000
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      "  font-family: \"Jost\", sans-serif;"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": 1000
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      "  scroll-behavior: smooth;"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": 1000
   },
   {
     "type": "goto",
-    "line": 5,
+    "line": 8,
     "column": 1000
   },
   {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "command",
+    "command": "editor.action.insertLineAfter"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": false
+  },
+  {
+    "type": "goto",
+    "line": 28,
+    "column": 1
+  },
+  {
     "type": "typeText",
     "text": [
+      ".text,",
+      ".text * {",
       "",
-      "    background-color: green;"
+      "}"
+    ],
+    "delay": 50
+  },
+  {
+    "type": "command",
+    "command": "cursorUp"
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "  font-family: \"IBM Plex Mono\", monospace;"
     ],
     "delay": 50
   },
@@ -79,51 +227,7 @@
     "command": "workbench.action.files.save"
   },
   {
-    "type": "typeText",
-    "text": [
-      "",
-      "    background-color: red;"
-    ],
-    "delay": 50
-  },
-  {
-    "type": "command",
-    "command": "workbench.action.files.save"
-  },
-  {
-    "type": "typeText",
-    "text": [
-      "",
-      "    background-color: yellow;"
-    ],
-    "delay": 50
-  },
-  {
-    "type": "command",
-    "command": "workbench.action.files.save"
-  },
-  {
-    "type": "typeText",
-    "text": [
-      "",
-      "    background-color: orange;"
-    ],
-    "delay": 50
-  },
-  {
-    "type": "command",
-    "command": "workbench.action.files.save"
-  },
-  {
-    "type": "typeText",
-    "text": [
-      "",
-      "    background-color: orchid;"
-    ],
-    "delay": 50
-  },
-  {
-    "type": "command",
-    "command": "workbench.action.files.save"
+    "type": "wait",
+    "delay": 100
   }
 ]
